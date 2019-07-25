@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".saglikActivity">
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="ScrollViewCount"
+        >
+    //altta kalıyor, görünmüyor.
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/buton"
+            >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/logo"
+        android:scaleType="centerCrop"></ImageView>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buton"
+            android:text="BESİN ÖĞELERİ"
+            android:textColor="@color/butontext"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buton"
+            android:text="BİTKİSEL TEDAVİLER"
+            android:textColor="@color/butontext"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buton"
+            android:text="GEMİ SAĞLIK REHBERİ"
+            android:textColor="@color/butontext"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buton"
+            android:text="İLAÇLAR VE ANLAMLARI"
+            android:textColor="@color/butontext"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/button24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buton"
+            android:text="İLK YARDIM EĞİTİMİ"
+            android:textColor="@color/butontext"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/button32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buton"
+            android:text="SEYAHAT SAĞLIĞI EL KİTABI"
+            android:textColor="@color/butontext"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buton"
+            android:text="ŞİFALI BİTKİLER"
+            android:textColor="@color/butontext"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buton"
+            android:text="SU DEZENFEKSİYONU"
+            android:textColor="@color/butontext"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buton"
+            android:text="TEMEL İLK YARDIM"
+            android:textColor="@color/butontext"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buton"
+            android:text="TEMEL YAŞAM DESTEĞİ"
+            android:textColor="@color/butontext"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buton"
+            android:text="ZEHİRLENME"
+            android:textColor="@color/butontext"
+            android:layout_marginTop="5dp"/>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

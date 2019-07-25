@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".stabiliteActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/buton"
+        >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/logo"
+        android:scaleType="centerCrop"></ImageView>
+    </LinearLayout>
+        <Button
+            android:id="@+id/button31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buton"
+            android:text="GEMİ STABİLİTE TERİMLERİ"
+            android:textColor="@color/butontext"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/button29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buton"
+            android:text="PETROL TANKERLERİNDE YÜK HESABI"
+            android:textColor="@color/butontext"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

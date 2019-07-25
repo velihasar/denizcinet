@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KutuphaneActivity">
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="ScrollViewCount"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/buton"
+            >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/logo"
+            android:scaleType="centerCrop">
+
+        </ImageView>
+        </LinearLayout>
+    <Button
+        android:id="@+id/cankurtarma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/buton"
+        android:text="CAN KURTARMA ARAÇLARI"
+        android:textColor="@color/butontext"
+        android:layout_marginTop="5dp"/>
+    <Button
+        android:id="@+id/colreg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/buton"
+        android:text="COLREG"
+        android:textColor="@color/butontext"
+        android:layout_marginTop="5dp" />
+    <Button
+        android:id="@+id/denizdeguvenlik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/buton"
+        android:text="DENİZDE GÜVENLİK"
+        android:textColor="@color/butontext"
+        android:layout_marginTop="5dp" />
+    <Button
+        android:id="@+id/imdg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/buton"
+        android:text="IMDG"
+        android:textColor="@color/butontext"
+        android:layout_marginTop="5dp" />
+    <Button
+        android:id="@+id/kaptanklavuzu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/buton"
+        android:text="KAPTANIN KLAVUZU"
+        android:textColor="@color/butontext"
+        android:layout_marginTop="5dp" />
+    <Button
+        android:id="@+id/marpol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/buton"
+        android:text="MARPOL"
+        android:textColor="@color/butontext"
+        android:layout_marginTop="5dp" />
+    <Button
+        android:id="@+id/meteoroloji"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/buton"
+        android:text="METEOROLOJİ"
+        android:textColor="@color/butontext"
+        android:layout_marginTop="5dp" />
+    <Button
+        android:id="@+id/roletalimleri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/buton"
+        android:text="ROLE TALİMLERİ"
+        android:textColor="@color/butontext"
+        android:layout_marginTop="5dp" />
+    <Button
+        android:id="@+id/saglik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/buton"
+        android:text="SAĞLIK"
+        android:textColor="@color/butontext"
+        android:layout_marginTop="5dp" />
+    <Button
+        android:id="@+id/solas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/buton"
+        android:text="SOLAS"
+        android:textColor="@color/butontext"
+        android:layout_marginTop="5dp" />
+    <Button
+        android:id="@+id/stabilite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/buton"
+        android:text="STABİLİTE"
+        android:textColor="@color/butontext"
+        android:layout_marginTop="5dp" />
+    <Button
+
+        android:id="@+id/yanginlamucadele"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/buton"
+        android:text="YANGINLA MÜCADELE"
+        android:textColor="@color/butontext"
+        android:layout_marginTop="5dp" />
+</LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

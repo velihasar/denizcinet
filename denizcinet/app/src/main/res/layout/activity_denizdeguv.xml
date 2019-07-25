@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".denizdeguvActivity">
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="ScrollViewCount"
+        >
+    //altta kalıyor, görünmüyor.
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/buton"
+            >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/logo"
+            android:scaleType="centerCrop"></ImageView>
+        </LinearLayout>
+    <Button
+        android:id="@+id/button37"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/buton"
+        android:text="CAN HALATI İLE HABERLEŞME"
+        android:textColor="@color/butontext"
+        android:layout_marginTop="5dp"/>
+
+        <Button
+            android:id="@+id/button30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buton"
+            android:text="SU İÇİNDE KAZAZADE KURTARMA"
+            android:textColor="@color/butontext"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buton"
+            android:text="DENİZDE SAĞ KALMA"
+            android:textColor="@color/butontext"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/button35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buton"
+            android:text="DENİZDE CANLI KALMA TEKNİKLERİ"
+            android:textColor="@color/butontext"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/button36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buton"
+            android:text="DENİZDEN ADAM KURTARMA"
+            android:textColor="@color/butontext"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buton"
+            android:text="SOLUNUM CİHAZLARI"
+            android:textColor="@color/butontext"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/button34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buton"
+            android:text="GMDSS TEHLİKE MESAJ TRAFİĞİ"
+            android:textColor="@color/butontext"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buton"
+            android:text="İNERT GAZ İŞLEMLERİ"
+            android:textColor="@color/butontext"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buton"
+            android:text="KAPALI BÖLMELERE GİRİŞ"
+            android:textColor="@color/butontext"
+            android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/button27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/buton"
+            android:text="PERSONEL GÜVENLİĞİ"
+            android:textColor="@color/butontext"
+            android:layout_marginTop="5dp"/>
+
+
+    </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
